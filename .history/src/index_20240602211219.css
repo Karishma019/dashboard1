@@ -1,0 +1,18 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+@media screen and (max-width: "1074px") {
+  .container {
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+  }
+}

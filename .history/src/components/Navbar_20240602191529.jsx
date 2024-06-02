@@ -1,0 +1,19 @@
+import React from "react";
+
+const Navbar = () => {
+  return (
+    <div className="fixed top-0 left-0 h-full w-full p-4 overflow-hidden">
+      <h2 className="text-2xl font-bold mb-4">Security Dashboard</h2>
+      <ul className="flex">
+        <li>Home</li>
+        <li>Alert Breakdown</li>
+        <li>Source IP Analysis</li>
+        <li>Top Ports Scanned</li>
+        <li>Alert Timeline</li>
+        <li>Real-time Updates</li>
+      </ul>
+    </div>
+  );
+};
+
+export default Navbar;

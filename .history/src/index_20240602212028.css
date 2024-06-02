@@ -1,0 +1,11 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1250px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: 1rem;
+}

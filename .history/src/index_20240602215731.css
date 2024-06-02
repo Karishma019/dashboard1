@@ -1,0 +1,32 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1250px;
+  width: 90%;
+  margin: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track .dark {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-track .light {
+  background: rgb(243 244 246);
+}
+
+/* Handle (thumb) */
+::-webkit-scrollbar-thumb .dark {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb .light {
+  background: rgb(243 244 246);
+}
