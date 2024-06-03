@@ -28,5 +28,6 @@
 }
 
 ::-webkit-scrollbar-thumb .light {
-  background: rgb(243 244 246);
+/*   background: rgb(243 244 246); */
+     background: #fff
 }
