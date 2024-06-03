@@ -6,7 +6,7 @@ function CategoryPieChart({ categories, alertsByCategory, isDarkMode }) {
       <div
         className={`${
           isDarkMode ? "bg-gray-800" : "bg-gray-100"
-        } p-2 rounded-lg shadow-lg h-96 overflow-hidden overflow-x-auto flex flex-col items-center`}
+        } p-2 rounded-lg shadow-lg h-96 overflow-hidden overflow-x-auto flex flex-col items-center scrollbar scrollbar-track scrollbar-thumb`}
       >
         <h2 className="text-xl font-semibold text-center">
           Alert Breakdown by Category
