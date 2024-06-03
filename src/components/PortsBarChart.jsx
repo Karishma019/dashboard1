@@ -6,7 +6,7 @@ function PortsBarChart({ sortedPorts, isDarkMode }) {
       <div
         className={`${
           isDarkMode ? "bg-gray-800 " : "bg-gray-100 "
-        }p-2 rounded-lg shadow-lg h-96 overflow-hidden overflow-x-auto flex flex-col items-center`}
+        }p-2 rounded-lg shadow-lg h-96 overflow-hidden overflow-x-auto sm:flex sm:flex-col sm:items-center`}
       >
         <h2 className="text-xl font-semibold text-center">
           Top Destination Ports Scanned
